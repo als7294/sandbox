@@ -8,15 +8,26 @@
 
   <style>
       h5 { color: #FFFFFF; }
-      h4{font-family: 'Raleway', sans-serif; font-size:45px; color:#ffffff; text-shadow: 4px 4px #000000}
-      p {font-family: 'Raleway', sans-serif; font-size:25px; color:#ffffff; text-shadow: 2px 2px #000000}
 
       body {
-        background-color:#ffffff;background-image:url("Background.jpg");
+        font-family: 'Raleway', sans-serif;
         font-size: 55px;
         text-align: center;
             }* {box-sizing: border-box;}
 
+            .bg-img {
+              /* The image used */
+              background-image: url("headerimage.png");
+              min-height: 250px;
+
+              /* Center and scale the image nicely */
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: cover;
+
+              /* Needed to position the navbar */
+              position: relative;
+            }
 
             /* Position the navbar container inside the image */
             .container {
@@ -28,8 +39,8 @@
             /* The navbar */
             .topnav {
               overflow: hidden;
-              position:relative; top:75px; color: #FFFFFF; font-family: 'Raleway', sans-serif;"
-              margin-top:10px;
+              background-color: #000000;
+              margin-top:150px;
             }
 
             /* Navbar links */
@@ -50,21 +61,15 @@
             }
 
             </style>
+</head>
+<body>
 
+    <div class="bg-img">
+      <div class="container">
+      <div style = "position:relative; top:75px; color: #FFFFFF;">
+                   Aaron's Website </div>
 
-  </head>
-
-            <body>
-
-            <div class="bg-img">
-              <div class="container">
-
-                <div style = "position:relative; top:75px; color: #FFFFFF; font-family: 'Raleway', sans-serif;">
-                   Aaron's Website
-                </div>
-
-  <div class="topnav">
-
+    <div class="topnav">
                   <a href="index.html">Home</a>
                   <a href="gallery.html">Photo Gallery</a>
                   <a href="https://github.com/als7294/sandbox">Source Code</a>
@@ -74,37 +79,13 @@
                   <a href="https://sites.psu.edu/als7294/">Alt. Website</a>
                 </div>
               </div>
-            </div>
+    </div>
 
-    </style>
-  </head>
+<body style="background-color:black;" >
+<section class = "gallery">
+    <figure>
+        <img src="Finding DoryNemo.png" width="700" height="600">
+        <img src="Finding DoryNemo Ref.png" width="700" height="600">
+</body>
 
-<style>
-body {background-image:url("Background.jpg") }
-h4{font-family: 'Raleway', sans-serif; color:#ffffff; text-shadow: 4px 4px #000000}
-p {font-family: 'Raleway', sans-serif; font-size:25px; color:#ffffff;text-shadow: 2px 2px #000000}
-</style>
-
-<body>
-<div style = "position:relative; height: 0px; width: 500px;
-  left:325px; top:70px;" >
-
-  <h4>Job History:</h4>
-  <p>Walmart - Summer 2021</p>
-  <p>Smith Photography - Asst. Manager // 2016-Present </p>
-
-</div>
-
-  <div style = "position:relative; height: 70px; width: 500px;
-    left:875px; top:0px;" >
-
-    <h4>About Me:</h4>
-    <p>I grew up in a small town called Athens, and started my love for computers at a
-    very young age. I built my first PC at the age of 15, and started a very sucessful tech channel at 18.
-    Due to the popularity of the channel, I've been able to work with major brands such as
-    Intel, Corsair, Rode, and MSI.</p>
-
-  </body>
-
-</center>
-</html>
+</body>
